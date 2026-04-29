@@ -1,0 +1,10 @@
+/* WOVEN PATCH START */
+double rho_wv = 0., p_wv = 0.;
+if (pba->wv.has_woven == _TRUE_) {
+  class_call(woven_rho(pba, &pba->wv, z, &rho_wv, &p_wv),
+             pba->error_message,
+             pba->error_message);
+}
+rho_tot += rho_wv;  /* CRITICAL: Must add before H = sqrt(rho_tot) */
+p_tot += p_wv;
+/* WOVEN PATCH END */
