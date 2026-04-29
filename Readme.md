@@ -1,3 +1,4 @@
+**DOI:** [[DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19896285.svg)](https://doi.org/10.5281/zenodo.19896285)
 # The Woven Universe CS-I - CLASS v3.2.1 Implementation
 **Author:** A. Hugleikr Stianson
 **Paper:** "The Woven Universe – A Beginner's Hypothesis on Cosmic Balance"
